@@ -261,7 +261,7 @@ get_header();
             <p>Get a free quote today and discover why property managers trust us for all their cleaning needs.</p>
             <div class="hero-buttons">
                 <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn-primary">Request a Quote</a>
-                <a href="tel:5551234567" class="btn btn-secondary">Call (555) 123-4567</a>
+                <a href="tel:2792648539" class="btn btn-secondary">Call (279) 264-8539</a>
             </div>
         </div>
     </div>

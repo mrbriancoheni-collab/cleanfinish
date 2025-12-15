@@ -42,13 +42,28 @@ add_action('after_setup_theme', 'cleanfinish_theme_setup');
  * Enqueue scripts and styles
  */
 function cleanfinish_scripts() {
-    // Theme stylesheet
-    wp_enqueue_style('cleanfinish-style', get_stylesheet_uri(), array(), '1.0.0');
+    // Remove all other stylesheets to prevent conflicts
+    wp_dequeue_style('wp-block-library');
+    wp_dequeue_style('wp-block-library-theme');
+    wp_dequeue_style('global-styles');
+
+    // Theme stylesheet with cache busting
+    wp_enqueue_style('cleanfinish-style', get_stylesheet_uri(), array(), '2.0.3');
 
     // Theme JavaScript
-    wp_enqueue_script('cleanfinish-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0', true);
+    wp_enqueue_script('cleanfinish-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '2.0.0', true);
 }
-add_action('wp_enqueue_scripts', 'cleanfinish_scripts');
+add_action('wp_enqueue_scripts', 'cleanfinish_scripts', 100);
+
+/**
+ * Remove WordPress default styles
+ */
+function cleanfinish_remove_default_styles() {
+    wp_dequeue_style('wp-block-library');
+    wp_dequeue_style('wp-block-library-theme');
+    wp_dequeue_style('global-styles');
+}
+add_action('wp_enqueue_scripts', 'cleanfinish_remove_default_styles', 1);
 
 /**
  * Register widget areas

@@ -30,8 +30,8 @@
         <div class="footer-section">
             <h3>Contact Info</h3>
             <ul>
-                <li>📞 Phone: (555) 123-4567</li>
-                <li>📧 Email: info@cleanfinish.com</li>
+                <li>📞 Phone: <a href="tel:2792648539">(279) 264-8539</a></li>
+                <li>📧 Email: <a href="mailto:info@cleanfinish.com">info@cleanfinish.com</a></li>
                 <li>📍 Serving Metro Area</li>
                 <li>🕐 Mon-Sun: 7am - 9pm</li>
             </ul>
