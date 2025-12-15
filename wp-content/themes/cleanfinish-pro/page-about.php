@@ -9,35 +9,39 @@ get_header();
 ?>
 
 <!-- About Hero -->
-<section class="hero-section">
-    <div class="hero-content">
-        <h1>About CleanFinish</h1>
-        <p class="tagline">Your Trusted Partner in Professional Property Cleaning Since 2013</p>
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>About CleanFinish</h1>
+            <p class="hero-subtitle">Your Trusted Partner in Professional Property Cleaning Since 2013</p>
+        </div>
     </div>
 </section>
 
 <!-- Our Story -->
-<section class="content-section">
-    <div style="max-width: 900px; margin: 0 auto 3rem; background: #fff; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+<section class="section">
+    <div class="container">
         <h2 class="section-title">Our Story</h2>
 
-        <p style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 1.5rem;">
-            CleanFinish was founded by property manager turned entrepreneur, Maria Rodriguez, who experienced firsthand the frustration of unreliable cleaning services. After years of managing residential properties and struggling to find cleaning companies that understood the unique needs of property managers, she decided to create the solution herself.
-        </p>
+        <div style="max-width: 900px; margin: 0 auto;">
+            <p style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 1.5rem;">
+                CleanFinish was founded by property manager turned entrepreneur, Maria Rodriguez, who experienced firsthand the frustration of unreliable cleaning services. After years of managing residential properties and struggling to find cleaning companies that understood the unique needs of property managers, she decided to create the solution herself.
+            </p>
 
-        <p style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 1.5rem;">
-            What started as a small operation with two cleaning teams has grown into the metro area's most trusted cleaning service for property managers and building owners. We've cleaned over 10,000 units and maintain ongoing relationships with property management companies ranging from small independent operators to large corporate firms.
-        </p>
+            <p style="font-size: 1.1rem; line-height: 1.8; color: #555; margin-bottom: 1.5rem;">
+                What started as a small operation with two cleaning teams has grown into the metro area's most trusted cleaning service for property managers and building owners. We've cleaned over 10,000 units and maintain ongoing relationships with property management companies ranging from small independent operators to large corporate firms.
+            </p>
 
-        <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
-            Today, CleanFinish employs 35 trained cleaning professionals and operates seven days a week to ensure your properties are always ready when you need them. Our growth is built on one simple principle: understand what property managers need and deliver it consistently, every single time.
-        </p>
+            <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
+                Today, CleanFinish employs 35 trained cleaning professionals and operates seven days a week to ensure your properties are always ready when you need them. Our growth is built on one simple principle: understand what property managers need and deliver it consistently, every single time.
+            </p>
+        </div>
     </div>
 </section>
 
 <!-- Our Mission -->
-<section class="content-section" style="background-color: #f8f9fa; padding: 3rem 20px; margin: 0;">
-    <div style="max-width: 1200px; margin: 0 auto;">
+<section class="section section-light">
+    <div class="container">
         <h2 class="section-title">Our Mission</h2>
 
         <div style="max-width: 800px; margin: 0 auto; text-align: center;">
@@ -46,18 +50,18 @@ get_header();
             </p>
         </div>
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
-            <div style="background: #fff; padding: 2rem; border-radius: 10px; text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+        <div class="features-grid">
+            <div class="feature-card">
                 <h3 style="color: #28a745; font-size: 2.5rem; margin-bottom: 0.5rem;">Speed</h3>
                 <p style="color: #555;">Same-day service available. Most units turned around in 24 hours.</p>
             </div>
 
-            <div style="background: #fff; padding: 2rem; border-radius: 10px; text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+            <div class="feature-card">
                 <h3 style="color: #28a745; font-size: 2.5rem; margin-bottom: 0.5rem;">Quality</h3>
                 <p style="color: #555;">Consistent, thorough cleaning that meets or exceeds your move-out standards.</p>
             </div>
 
-            <div style="background: #fff; padding: 2rem; border-radius: 10px; text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+            <div class="feature-card">
                 <h3 style="color: #28a745; font-size: 2.5rem; margin-bottom: 0.5rem;">Reliability</h3>
                 <p style="color: #555;">We show up on time, every time. No excuses, no surprises.</p>
             </div>
@@ -66,10 +70,11 @@ get_header();
 </section>
 
 <!-- Why Property Managers Choose Us -->
-<section class="content-section">
-    <h2 class="section-title">Why Property Managers Choose Us</h2>
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Why Property Managers Choose Us</h2>
 
-    <div class="services-grid">
+        <div class="services-grid">
         <div class="service-card">
             <h3 style="color: #2c5f8d;">We Understand Your Business</h3>
             <p>We know that vacant units don't generate revenue. That's why we prioritize speed without sacrificing quality. Our team understands move-out checklists, security deposit regulations, and the importance of photo documentation.</p>
@@ -99,12 +104,13 @@ get_header();
             <h3 style="color: #2c5f8d;">Technology Integration</h3>
             <p>Online booking portal, digital invoicing, and automated reporting. Integrate our services into your existing property management systems seamlessly.</p>
         </div>
+        </div>
     </div>
 </section>
 
 <!-- Our Team -->
-<section class="content-section" style="background-color: #fff; padding: 3rem 20px; margin: 0;">
-    <div style="max-width: 1200px; margin: 0 auto;">
+<section class="section section-light">
+    <div class="container">
         <h2 class="section-title">Our Team</h2>
         <p class="section-subtitle">Experienced professionals dedicated to your success</p>
 
@@ -134,10 +140,10 @@ get_header();
 </section>
 
 <!-- Our Commitment -->
-<section class="content-section">
-    <h2 class="section-title">Our Commitment to You</h2>
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Our Commitment to You</h2>
 
-    <div style="max-width: 900px; margin: 0 auto;">
         <div class="features-list">
             <div class="feature-item">
                 <div class="feature-icon">✅</div>
@@ -191,13 +197,15 @@ get_header();
 </section>
 
 <!-- CTA Section -->
-<section class="hero-section" style="padding: 3rem 2rem;">
-    <div class="hero-content">
-        <h2 style="font-size: 2rem; margin-bottom: 1rem;">Partner with CleanFinish</h2>
-        <p style="font-size: 1.1rem; margin-bottom: 2rem;">Join hundreds of property managers who trust us to keep their properties rent-ready and profitable.</p>
-        <div class="cta-buttons">
-            <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn-primary">Contact Us Today</a>
-            <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-secondary">View Services</a>
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Partner with CleanFinish</h2>
+            <p>Join hundreds of property managers who trust us to keep their properties rent-ready and profitable.</p>
+            <div class="hero-buttons">
+                <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn-primary">Contact Us Today</a>
+                <a href="<?php echo esc_url(home_url('/services/')); ?>" class="btn btn-secondary">View Services</a>
+            </div>
         </div>
     </div>
 </section>

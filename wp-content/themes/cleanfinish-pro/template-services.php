@@ -9,19 +9,22 @@ get_header();
 ?>
 
 <!-- Services Hero -->
-<section class="hero-section">
-    <div class="hero-content">
-        <h1>Professional Cleaning Services</h1>
-        <p class="tagline">Specialized Solutions for Property Managers, Building Owners, and Commercial Properties</p>
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Professional Cleaning Services</h1>
+            <p class="hero-subtitle">Specialized Solutions for Property Managers, Building Owners, and Commercial Properties</p>
+        </div>
     </div>
 </section>
 
 <!-- Move-Out Cleaning Service -->
-<section class="content-section" id="moveout">
-    <h2 class="section-title">Move-Out Cleaning</h2>
-    <p class="section-subtitle">Turn vacant units into rent-ready properties in record time</p>
+<section class="section" id="moveout">
+    <div class="container">
+        <h2 class="section-title">Move-Out Cleaning</h2>
+        <p class="section-subtitle">Turn vacant units into rent-ready properties in record time</p>
 
-    <div style="max-width: 900px; margin: 0 auto 3rem; background: #fff; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+        <div style="max-width: 900px; margin: 0 auto;">
         <h3 style="color: #2c5f8d; margin-bottom: 1rem;">Complete Apartment & House Turnover Cleaning</h3>
         <p style="margin-bottom: 1.5rem;">When tenants move out, you need the unit cleaned quickly and thoroughly to minimize vacancy time. Our move-out cleaning service handles everything from top to bottom, ensuring your property meets move-in standards and passes inspections.</p>
 
@@ -90,16 +93,17 @@ get_header();
                 <li><strong>Same-day service available</strong> for urgent turnovers</li>
             </ul>
         </div>
+        </div>
     </div>
 </section>
 
 <!-- Office Cleaning Service -->
-<section class="content-section" id="office" style="background-color: #fff; padding: 3rem 20px; margin: 0;">
-    <div style="max-width: 1200px; margin: 0 auto;">
+<section class="section section-light" id="office">
+    <div class="container">
         <h2 class="section-title">Office & Commercial Cleaning</h2>
         <p class="section-subtitle">Maintain professional, healthy workspaces for your tenants and employees</p>
 
-        <div style="max-width: 900px; margin: 0 auto 3rem; background: #f8f9fa; padding: 2rem; border-radius: 10px;">
+        <div style="max-width: 900px; margin: 0 auto;">
             <h3 style="color: #2c5f8d; margin-bottom: 1rem;">Flexible Commercial Cleaning Solutions</h3>
             <p style="margin-bottom: 1.5rem;">Whether you manage office buildings, retail spaces, or mixed-use properties, our commercial cleaning services keep your properties looking professional and inviting. We work around your tenants' schedules and provide consistent, high-quality results.</p>
 
@@ -167,15 +171,17 @@ get_header();
             <h4 style="font-size: 1.5rem; margin-bottom: 1rem;">After-Hours Service Available</h4>
             <p style="opacity: 0.95;">We work around your tenants' schedules. Evening and weekend cleaning available to minimize disruption to business operations.</p>
         </div>
+        </div>
     </div>
 </section>
 
 <!-- Emergency & Specialty Cleaning -->
-<section class="content-section" id="emergency">
-    <h2 class="section-title">Emergency & Specialty Cleaning</h2>
-    <p class="section-subtitle">24/7 response for urgent cleaning situations</p>
+<section class="section" id="emergency">
+    <div class="container">
+        <h2 class="section-title">Emergency & Specialty Cleaning</h2>
+        <p class="section-subtitle">24/7 response for urgent cleaning situations</p>
 
-    <div class="services-grid">
+        <div class="services-grid">
         <div class="service-card">
             <h3>Post-Eviction Cleanup</h3>
             <p>Evictions often leave properties in poor condition. We handle extreme cleaning situations with discretion and efficiency, removing debris, deep cleaning all surfaces, and preparing the unit for renovation or immediate re-rental.</p>
@@ -208,12 +214,13 @@ get_header();
                 <li>Restoration coordination</li>
             </ul>
         </div>
+        </div>
     </div>
 </section>
 
 <!-- Pricing Information -->
-<section class="content-section" id="deep" style="background-color: #fff; padding: 3rem 20px; margin: 0;">
-    <div style="max-width: 1200px; margin: 0 auto;">
+<section class="section section-light" id="deep">
+    <div class="container">
         <h2 class="section-title">Transparent Pricing</h2>
         <p class="section-subtitle">No hidden fees. Volume discounts for property management companies.</p>
 
@@ -249,10 +256,11 @@ get_header();
 </section>
 
 <!-- Why Choose Us -->
-<section class="content-section">
-    <h2 class="section-title">The CleanFinish Difference</h2>
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">The CleanFinish Difference</h2>
 
-    <div class="features-list">
+        <div class="features-list">
         <div class="feature-item">
             <div class="feature-icon">🏆</div>
             <div class="feature-content">
@@ -284,17 +292,20 @@ get_header();
                 <p>Schedule services, track progress, and receive completion reports through our online portal.</p>
             </div>
         </div>
+        </div>
     </div>
 </section>
 
 <!-- CTA Section -->
-<section class="hero-section" style="padding: 3rem 2rem;">
-    <div class="hero-content">
-        <h2 style="font-size: 2rem; margin-bottom: 1rem;">Ready to Experience the CleanFinish Difference?</h2>
-        <p style="font-size: 1.1rem; margin-bottom: 2rem;">Contact us today for a free quote and see why property managers trust us with their cleaning needs.</p>
-        <div class="cta-buttons">
-            <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn-primary">Get Free Quote</a>
-            <a href="tel:5551234567" class="btn btn-secondary">Call (555) 123-4567</a>
+<section class="cta-section">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Ready to Experience the CleanFinish Difference?</h2>
+            <p>Contact us today for a free quote and see why property managers trust us with their cleaning needs.</p>
+            <div class="hero-buttons">
+                <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn btn-primary">Get Free Quote</a>
+                <a href="tel:2792648539" class="btn btn-secondary">Call (279) 264-8539</a>
+            </div>
         </div>
     </div>
 </section>
