@@ -1,6 +1,6 @@
 /*
 Theme Name: CleanFinish Pro
-Version: 2.0.3
+Version: 2.0.4
 Description: Modern, professional WordPress theme for CleanFinish cleaning services
 */
 
@@ -26,22 +26,52 @@ Description: Modern, professional WordPress theme for CleanFinish cleaning servi
 body, html {
     margin: 0 !important;
     padding: 0 !important;
+    overflow-x: hidden;
 }
 
+/* Force all WordPress wrappers to full width */
+body > *,
+#page,
+.site,
+.site-inner,
+.site-content-contain,
+.site-container,
 .site main,
 .site-content,
 #primary,
-#content {
+#content,
+#main,
+.content-area,
+.site-main,
+main,
+article {
     max-width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 /* Remove WordPress default container widths */
 .wp-site-blocks,
-.wp-block-group__inner-container {
+.wp-block-group__inner-container,
+.entry-content {
     max-width: 100% !important;
     padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Force sections to be full width */
+section,
+.hero,
+.section,
+.stats-section,
+.cta-section {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 /* Reset & Base */
@@ -254,16 +284,18 @@ ul, ol { margin-bottom: 1.25rem; }
 
 /* Stats Section */
 .stats-section {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    color: var(--white);
-    padding: 5rem 0;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)) !important;
+    color: var(--white) !important;
+    padding: 5rem 0 !important;
+    width: 100% !important;
 }
 
 .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 3rem;
-    text-align: center;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    gap: 3rem !important;
+    text-align: center !important;
+    width: 100% !important;
 }
 
 .stat-item h3 {
@@ -281,9 +313,10 @@ ul, ol { margin-bottom: 1.25rem; }
 
 /* Features Grid */
 .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 2rem !important;
+    width: 100% !important;
 }
 
 .feature-card {
@@ -326,9 +359,10 @@ ul, ol { margin-bottom: 1.25rem; }
 
 /* Services Grid */
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2.5rem;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
+    gap: 2.5rem !important;
+    width: 100% !important;
 }
 
 .service-card {
@@ -389,9 +423,10 @@ ul, ol { margin-bottom: 1.25rem; }
 
 /* Process Steps */
 .process-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+    gap: 2rem !important;
+    width: 100% !important;
 }
 
 .process-step {
@@ -425,9 +460,10 @@ ul, ol { margin-bottom: 1.25rem; }
 
 /* Testimonials */
 .testimonials-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
+    gap: 2rem !important;
+    width: 100% !important;
 }
 
 .testimonial {

@@ -48,7 +48,7 @@ function cleanfinish_scripts() {
     wp_dequeue_style('global-styles');
 
     // Theme stylesheet with cache busting
-    wp_enqueue_style('cleanfinish-style', get_stylesheet_uri(), array(), '2.0.3');
+    wp_enqueue_style('cleanfinish-style', get_stylesheet_uri(), array(), '2.0.4');
 
     // Theme JavaScript
     wp_enqueue_script('cleanfinish-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '2.0.0', true);

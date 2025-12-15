@@ -40,17 +40,8 @@ get_header();
                 <div class="info-icon">📧</div>
                 <div class="info-details">
                     <h4>Email</h4>
-                    <p><a href="mailto:info@cleanfinish.com" style="font-size: 1.25rem; font-weight: 600; color: var(--secondary);">info@cleanfinish.com</a></p>
+                    <p><a href="mailto:cleanfinish08@gmail.com" style="font-size: 1.25rem; font-weight: 600; color: var(--secondary);">cleanfinish08@gmail.com</a></p>
                     <p>We respond within 2 hours</p>
-                </div>
-            </div>
-
-            <div class="info-card">
-                <div class="info-icon">🚨</div>
-                <div class="info-details">
-                    <h4>Emergency Service</h4>
-                    <p><a href="tel:2792648539" style="font-size: 1.25rem; font-weight: 600; color: var(--secondary);">(279) 264-8539</a></p>
-                    <p>24/7 Available</p>
                 </div>
             </div>
 
@@ -58,8 +49,8 @@ get_header();
                 <div class="info-icon">📍</div>
                 <div class="info-details">
                     <h4>Service Area</h4>
-                    <p style="font-size: 1.25rem; font-weight: 600;">Metro Area</p>
-                    <p>Serving all surrounding counties</p>
+                    <p style="font-size: 1.25rem; font-weight: 600;">Sacramento County</p>
+                    <p>and South Placer County</p>
                 </div>
             </div>
         </div>
@@ -139,7 +130,7 @@ get_header();
             <p>Call us today for a free quote and fast service</p>
             <div class="hero-buttons">
                 <a href="tel:2792648539" class="btn btn-primary">Call (279) 264-8539</a>
-                <a href="mailto:info@cleanfinish.com" class="btn btn-secondary">Email Us</a>
+                <a href="mailto:cleanfinish08@gmail.com" class="btn btn-secondary">Email Us</a>
             </div>
         </div>
     </div>
