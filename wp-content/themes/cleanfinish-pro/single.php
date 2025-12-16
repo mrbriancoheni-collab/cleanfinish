@@ -8,13 +8,14 @@
 get_header();
 ?>
 
-<section class="content-section">
-    <?php
-    while (have_posts()) :
-        the_post();
-        ?>
+<section class="section">
+    <div class="container">
+        <?php
+        while (have_posts()) :
+            the_post();
+            ?>
 
-        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> style="max-width: 900px; margin: 0 auto;">
+            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> style="max-width: 900px; margin: 0 auto;">
             <header class="entry-header" style="margin-bottom: 2rem;">
                 <h1 class="section-title"><?php the_title(); ?></h1>
 
@@ -64,8 +65,9 @@ get_header();
             'next_text' => '<span class="nav-subtitle">Next:</span> <span class="nav-title">%title</span>',
         ));
 
-    endwhile;
-    ?>
+        endwhile;
+        ?>
+    </div>
 </section>
 
 <?php get_footer(); ?>
