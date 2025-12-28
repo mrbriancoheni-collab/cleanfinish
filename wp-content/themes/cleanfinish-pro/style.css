@@ -1,6 +1,6 @@
 /*
 Theme Name: CleanFinish Pro
-Version: 2.0.4
+Version: 2.0.5
 Description: Modern, professional WordPress theme for CleanFinish cleaning services
 */
 
@@ -650,9 +650,10 @@ ul, ol { margin-bottom: 1.25rem; }
 
 /* Blog */
 .blog-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 2.5rem;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 2.5rem !important;
+    width: 100% !important;
 }
 
 .blog-card {
@@ -780,6 +781,7 @@ ul, ol { margin-bottom: 1.25rem; }
     .hero h1 { font-size: 2.5rem; }
     .contact-wrapper { grid-template-columns: 1fr; }
     .services-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+    .blog-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
 
 @media (max-width: 768px) {
