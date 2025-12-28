@@ -66,6 +66,19 @@ function cleanfinish_remove_default_styles() {
 add_action('wp_enqueue_scripts', 'cleanfinish_remove_default_styles', 1);
 
 /**
+ * Fallback menu if no menu is set
+ */
+function cleanfinish_default_menu() {
+    echo '<ul class="nav-menu">';
+    echo '<li><a href="' . esc_url(home_url('/')) . '">Home</a></li>';
+    echo '<li><a href="' . esc_url(home_url('/services/')) . '">Services</a></li>';
+    echo '<li><a href="' . esc_url(home_url('/about/')) . '">About</a></li>';
+    echo '<li><a href="' . esc_url(home_url('/blog/')) . '">Blog</a></li>';
+    echo '<li><a href="' . esc_url(home_url('/contact/')) . '">Contact</a></li>';
+    echo '</ul>';
+}
+
+/**
  * Register widget areas
  */
 function cleanfinish_widgets_init() {
